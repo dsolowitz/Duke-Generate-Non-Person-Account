@@ -1,0 +1,16 @@
+980176234,9,EMILY,PARSLEY,hodge012,TIP Field Studies II Participants,7/25/2017
+980176235,9,JULIA,AMMER,hodge012,TIP Field Studies II Participants,7/25/2017
+980173083,9,Benjamin,Polk,hodge012,TIP Field Studies II Participants,8/5/2017
+980173084,9,Benjamin,Polk,hodge012,TIP West Staff Term 2,08/04/2017
+980171077,9,Tearra,Arrington,hodge012,TIP East Staff,08/04/2017
+980173085,9,Easterling,Arieyana,hodge012,TIP West Staff,08/04/2017
+980173086,9,Megan,Armstrong,hodge012,TIP West Staff,08/04/2017
+983177081,9,Ken,Rumble,hodge012,Youth Programs Staff,08/07/2017
+888862500,1,Undergrad Admissions,Pratt Open House 2017,ssw10,UGA Pratt Open House 2017
+888862501,1,Undergrad Admissions,Pratt Open House 2017,ssw10,UGA Pratt Open House 2017
+888862502,1,Undergrad Admissions,Pratt Open House 2017,ssw10,UGA Pratt Open House 2017
+888862503,1,Undergrad Admissions,Pratt Open House 2017,ssw10,UGA Pratt Open House 2017
+888862504,1,Undergrad Admissions,Pratt Open House 2017,ssw10,UGA Pratt Open House 2017
+888862505,1,Undergrad Admissions,Pratt Open House 2017,ssw10,UGA Pratt Open House 2017
+888862506,1,Undergrad Admissions,Pratt Open House 2017,ssw10,UGA Pratt Open House 2017
+

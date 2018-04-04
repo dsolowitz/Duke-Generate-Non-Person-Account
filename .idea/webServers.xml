@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="abc68367-d745-4805-9d40-d2b93aaece98" name="git@idms-git.oit.duke.edu:ds438/Generate_Non_Person_Account.git" url="http://git@idms-git.oit.duke.edu:ds438/Generate_Non_Person_Account.git">
+        <fileTransfer host="" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
