@@ -34,8 +34,9 @@ public class NonPersonAccount {
             LOG.fatal("No valid file");
         }
         while (scan.hasNextLine()) {
+            lineForCard = scan.nextLine(); //get line from text file
+            if (lineForCard.equals("")) continue;
             listOfProps = new ArrayList<>();
-            lineForCard = scan.nextLine();          //get line from text file
             createDUIDInfo(lineForCard);            //send each line individualy to createduidinfo
             propAttribute = createPropList(firstName,lastName,sponsorDUID,expirationDate,dukeNum);   //send first line to be created as property object
             if(propAttribute.containsValue("error")||propAttribute.containsValue(null)){
@@ -119,7 +120,7 @@ public class NonPersonAccount {
                  UserReconciliationResult userReconciliationResult = result.getUserReconciliationResult();
                  String duid = userReconciliationResult.getNewDukeID();
                  prop.setProperty("DUID",duid);
-                 LOG.info("Success creating and storing new DUID");
+                 LOG.info("Success creating and storing new DUID " + duid);
              }
          }
     }
