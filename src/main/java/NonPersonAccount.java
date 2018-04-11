@@ -26,7 +26,7 @@ public class NonPersonAccount {
 
     public void run() {
         BasicConfigurator.configure();
-        LOG.info("Starting task");
+        LOG.info("Starting task.");
         try {
             scan = new Scanner(firstFile);
         } catch (FileNotFoundException e) {
