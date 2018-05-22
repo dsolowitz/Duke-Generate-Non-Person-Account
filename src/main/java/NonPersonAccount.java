@@ -1,7 +1,7 @@
 import edu.duke.oit.idms.idmws.client.*;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.apache.log4j.BasicConfigurator;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -9,7 +9,7 @@ import java.util.*;
 
 public class NonPersonAccount {
 
-    private static final Logger LOG = LogManager.getLogger(NonPersonAccount.class.getName());
+    private static final Log LOG = LogFactory.getLog(NonPersonAccount.class.getName());
     static Scanner scan;
     static String firstName;
     static String lastName;
@@ -20,7 +20,6 @@ public class NonPersonAccount {
     static String lineForCard;
     static Properties propAttribute;
     static File firstFile = new File("sample.txt");
-    static int numOfUIDSToGet;
     static ArrayList<Properties> listOfProps;
     static ArrayList<Properties> listOfFailedLines;
 
