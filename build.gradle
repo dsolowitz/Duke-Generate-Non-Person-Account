@@ -18,6 +18,5 @@ dependencies {
 
 
     compile 'edu.duke.oit.idms.scheduled_tasks:scheduled-tasks:1.0.21'
-    compile group: 'com.googlecode.clichemaven', name: 'cliche', version: '110413'
 
 }

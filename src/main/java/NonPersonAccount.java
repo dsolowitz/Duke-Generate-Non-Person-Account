@@ -67,8 +67,16 @@ public class NonPersonAccount {
                     LOG.error("Incorrect length of Duke Card Number");
                 }       //check to make sure cardnum is correct lengh, if not send error
                 else dukeNum = checkCardNum;
-                firstName = splited[2];                                    //store appropriate date in variables
-                lastName = splited[3];
+                if(splited[2].length()<= 30){
+                firstName = splited[2];} //store appropriate date in variables
+                else{
+                    LOG.error("First name must not be longer than 30 characters");
+                }
+                if(splited[3].length() <= 30){
+                lastName = splited[3];}
+                else{
+                    LOG.error("Last name must not be longer than 30 characters");
+                }
                 sponsorNetID = splited[4];
                 sponsorDUID = getDUIDForNetID(sponsorNetID);              //get DUID for sponsor netid
                 if(splited[6].isEmpty()) expirationDate = null;           // check for ex. date, or store null
@@ -142,4 +150,6 @@ public class NonPersonAccount {
             LOG.error("Could not create duid for: " + prop.toString());
         }
     }
+
+
 }
