@@ -1,8 +1,10 @@
+import edu.duke.oit.idms.generatenonperson.NonPersonAccount;
 import edu.duke.oit.idms.idmws.client.UserMethods;
 import edu.duke.oit.idms.idmws.client.UserReconciliationMethods;
 import edu.duke.oit.idms.test.idmws.client.result.ResultBuilder;
 import edu.duke.oit.idms.test.idmws.client.result.UserQueryResultBuilder;
 import edu.duke.oit.idms.test.idmws.client.result.UserReconciliationResultBuilder;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,3 +1,5 @@
+package edu.duke.oit.idms.generatenonperson;
+
 import edu.duke.oit.idms.idmws.client.*;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -10,18 +12,18 @@ import java.util.*;
 public class NonPersonAccount {
 
     private static final Log LOG = LogFactory.getLog(NonPersonAccount.class.getName());
-    static Scanner scan;
-    static String firstName;
-    static String lastName;
-    static String sponsorNetID;
-    static String sponsorDUID;
-    static String expirationDate;
-    static String dukeNum;
-    static String lineForCard;
-    static Properties propAttribute;
-    static File firstFile = new File("sample.txt");
-    static ArrayList<Properties> listOfProps;
-    static ArrayList<Properties> listOfFailedLines;
+    public static Scanner scan;
+    public static String firstName;
+    public static String lastName;
+    public static String sponsorNetID;
+    public static String sponsorDUID;
+    public static String expirationDate;
+    public static String dukeNum;
+    public static String lineForCard;
+    public static Properties propAttribute;
+    public static File firstFile = new File("sample.txt");
+    public static ArrayList<Properties> listOfProps;
+    public static ArrayList<Properties> listOfFailedLines;
 
     public void run() {
         BasicConfigurator.configure();

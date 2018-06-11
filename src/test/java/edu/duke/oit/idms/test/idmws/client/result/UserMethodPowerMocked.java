@@ -1,4 +1,4 @@
-package edu.duke.oit.idms.test.idmws.client.utils;
+package edu.duke.oit.idms.test.idmws.client.result;
 
 import edu.duke.oit.idms.idmws.client.Result;
 import edu.duke.oit.idms.idmws.client.UserMethods;

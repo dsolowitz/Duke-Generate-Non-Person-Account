@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GenerateNonPersonAccount.project.iml" filepath="$PROJECT_DIR$/.idea/modules/GenerateNonPersonAccount.project.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GenerateNonPersonAccount.project_main.iml" filepath="$PROJECT_DIR$/.idea/modules/GenerateNonPersonAccount.project_main.iml" group="GenerateNonPersonAccount.project" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GenerateNonPersonAccount.project_test.iml" filepath="$PROJECT_DIR$/.idea/modules/GenerateNonPersonAccount.project_test.iml" group="GenerateNonPersonAccount.project" />
+      <module fileurl="file://$PROJECT_DIR$/Generate_Non_Person_Account.iml" filepath="$PROJECT_DIR$/Generate_Non_Person_Account.iml" />
     </modules>
   </component>
 </project>
