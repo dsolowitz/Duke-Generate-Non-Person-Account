@@ -1,0 +1,54 @@
+a{
+    color: #0577b1;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px dotted #0577b1;
+}
+
+a:hover{
+    color: #001a57;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #001a57;
+}
+
+h1{color: #001a57}
+h2{color: #666666}
+h3{color: #001a57}
+h4{color: #666666}
+
+#header{
+    background: #001a57;
+}
+
+ul#menu-options li a:hover, ul#menu-options li a.active-tab{
+    background-color: #001a57;
+    color: #fff;
+}
+
+input[type=submit].active , input[type=button].active, button.active{
+    color: #fff;
+    border: 2px solid #001a57;
+    background: #001a57;
+}
+
+input[type=submit] .button-icon-right, input[type=submit] .button-icon-left,
+input[type=button] .button-icon-right, input[type=button] .button-icon-left,
+button .button-icon-right, button .button-icon-left{
+    color: #4f9cd5;
+}
+
+input[type=submit].active:hover , input[type=button].active:hover , button.active:hover{
+    background: #0577b1;
+    border: 2px solid #0577b1;
+}
+
+input[type=submit].passive , input[type=button].passive , button.passive{
+    border: 2px solid #d8d8d8;
+    background: #fff;
+}
+
+input[type=submit].passive:hover , input[type=button].passive:hover , button.passive:hover{
+    border: 2px solid #d8d8d8;
+    background: #d8d8d8;
+}
