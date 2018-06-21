@@ -39,3 +39,6 @@ dependencies {
 
 
 }
+war {
+    archiveName  'ROOT.war'
+}
